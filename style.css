@@ -4,7 +4,7 @@
 				padding: 0;
 				margin: 0;
 				box-sizing: border-box;
-			 outline: 2px solid black; 
+			/* outline: 2px solid black; */
 }
 html{
 --Light-red: hsl(356, 100%, 66%);
@@ -125,7 +125,7 @@ background-repeat: no-repeat;
 }
 
 #intro h1{
-font-size: 8rem;
+font-size: 3rem;
 margin-bottom:1rem;
 }
 
@@ -167,7 +167,7 @@ left:-15%;
 .heading{
 color:var(--Very-dark-blue);
 margin-bottom:2rem;
-font-size:5rem;
+font-size:2rem;
 font-weight: 600;}
 
 /* section 3  */
@@ -194,7 +194,7 @@ left: 0%;
 transform:translateY(-50%);
 }
 
-#section3 .heading {color: #fff;font-size: 2.5rem;}
+#section3 .heading {color: #fff;font-size: 2.75rem;}
 
 footer {
 width: 100%;
