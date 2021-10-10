@@ -2,7 +2,7 @@
 
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
-Live preview:https://blogr-landing-page-fec.netlify.app/
+Live preview:https://blogr-page-challenge.netlify.app/
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
