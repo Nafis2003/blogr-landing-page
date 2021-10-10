@@ -126,7 +126,7 @@ background-repeat: no-repeat;
 }
 
 #intro h1{
-font-size: 2.25rem;
+font-size: 2.2rem;
 margin-bottom:1rem;
 }
 
@@ -168,9 +168,8 @@ left:-15%;
 .heading{
 color:var(--Very-dark-blue);
 margin-bottom:2rem;
-font-size:2.25rem;
+font-size:2rem;
 font-weight: 600;}
-
 /* section 3  */
 
 #section3{	background:url("images/bg-pattern-circles.svg"), linear-gradient(0deg,hsl(237, 23%, 32%),hsl(237, 17%, 21%));
@@ -195,7 +194,7 @@ left: 0%;
 transform:translateY(-50%);
 }
 
-#section3 .heading {color: #fff;font-size: 2.5rem;}
+#section3 .heading {color: #fff;font-size: 2.25rem;}
 
 footer {
 width: 100%;
@@ -337,6 +336,7 @@ background-position:top -45rem left -18rem,center center;
 @media(min-width:992px){
 				.container{max-width:960px;}
 #intro h1{font-size:3rem;}
+#section3 .heading{font-size: 2.5rem;}
 				:is(#section2,#section4) .container{
 				overflow: unset;
 				}
