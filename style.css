@@ -126,7 +126,7 @@ background-repeat: no-repeat;
 }
 
 #intro h1{
-font-size: 2.5rem;
+font-size: 2.25rem;
 margin-bottom:1rem;
 }
 
@@ -352,7 +352,6 @@ background-position:top -45rem left -18rem,center center;
 				:is(#section2,#section4) img{
 				position: absolute;
 				right:-31.5%;
-				top:calc(25% + 2rem);
 			 max-width: unset;
 				width:70%;
 				}
@@ -360,12 +359,11 @@ background-position:top -45rem left -18rem,center center;
 				#section4 img{
 				right: unset;
 				left:-33%;
-				top:calc(10% + 2rem);
 				}
 				
 				#section3 img{
 				top:0;
-				transform: translateY(-25%);
+				transform: translateY(-22%);
 				}
 			
 }
