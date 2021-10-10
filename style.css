@@ -4,7 +4,7 @@
 				padding: 0;
 				margin: 0;
 				box-sizing: border-box;
-			/*  outline: 2px solid black; */
+			outline: 2px solid black;
 }
 html{
 --Light-red: hsl(356, 100%, 66%);
@@ -126,7 +126,7 @@ background-repeat: no-repeat;
 }
 
 #intro h1{
-font-size: 2.75rem;
+font-size: 2.5rem;
 margin-bottom:1rem;
 }
 
@@ -168,7 +168,7 @@ left:-15%;
 .heading{
 color:var(--Very-dark-blue);
 margin-bottom:2rem;
-font-size:2.5rem;
+font-size:2.25rem;
 font-weight: 600;}
 
 /* section 3  */
@@ -239,9 +239,6 @@ bottom:10px; font-size:1rem; text-align: center; }
 body{
 text-align: left;
 }
-
-#intro h1{font-size:3rem;}
-article p{font-size:1.5rem;}
 
 #section2 .container>h2{text-align: center;}
 
@@ -339,7 +336,7 @@ background-position:top -45rem left -18rem,center center;
 
 @media(min-width:992px){
 				.container{max-width:960px;}
-#intro h1{font-size:4rem;}
+#intro h1{font-size:3rem;}
 				:is(#section2,#section4) .container{
 				overflow: unset;
 				}
@@ -355,7 +352,7 @@ background-position:top -45rem left -18rem,center center;
 				:is(#section2,#section4) img{
 				position: absolute;
 				right:-31.5%;
-				top:7.5%;
+				top:calc(25% + 2rem);
 			 max-width: unset;
 				width:70%;
 				}
@@ -363,8 +360,7 @@ background-position:top -45rem left -18rem,center center;
 				#section4 img{
 				right: unset;
 				left:-33%;
-				top:0;
-				transform: translateY(20%);
+				top:calc(10% + 2rem);
 				}
 				
 				#section3 img{
