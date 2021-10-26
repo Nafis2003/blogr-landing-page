@@ -25,6 +25,10 @@ font-weight: 300;
 }
 
 
+:is(#section2,#section4) p{
+color: var(--Very-dark-grayish-blue);
+}
+
 main {
 width: 100%;
 min-height: 100vh;
@@ -33,7 +37,7 @@ align-items: center;
 flex-flow: column;
 }
 
-section {width: 100%;}
+section {width: 100%;line-height: 2.5rem;}
 nav{position: relative;
 margin-bottom: 6rem;}
 nav #brand{
