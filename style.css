@@ -37,7 +37,10 @@ align-items: center;
 flex-flow: column;
 }
 
-section {width: 100%;line-height: 2.5rem;}
+section {width: 100%;}
+article p{
+line-height: 1.5rem;
+}
 nav{position: relative;
 margin-bottom: 6rem;}
 nav #brand{
